@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 1: Where We're Going</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="page-chapter page-song">
+    <script>
+        if (sessionStorage.getItem('isLoggedIn') !== 'true') {
+            window.location.href = 'index.html';
+        }
+    </script>
+
+    <div id="start-overlay">
+        <button id="start-button">Ketuk untuk Mulai</button>
+    </div>
+    
+    <div id="music-video-container">
+        
+        <video autoplay muted loop playsinline id="background-video">
+            <source src="Movie/My Movie.mp4" type="video/mp4">
+            Browser Anda tidak mendukung tag video. 
+        </video>
+        
+        <div class="video-overlay"></div>
+
+        <div class="lyrics-container">
+            <p id="lyric-display"></p>
+        </div>
+
+        <div id="spotify-player">
+            <img id="player-album-art" src="Picture/album.jpg" alt="Album Art">
+            <div id="player-track-info">
+                <h3>Where We're Going</h3>
+                <p>Elijah Woods</p>
+            </div>
+            <div id="progress-bar-container">
+                <div id="progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <audio id="birthday-song" src="Music/Music1.mp3" preload="auto"></audio>
+    <script src="script-chapter1-song.js"></script>
+</body>
+</html>
