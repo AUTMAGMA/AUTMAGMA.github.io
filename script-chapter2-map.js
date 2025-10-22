@@ -10,14 +10,14 @@ const locations = [
     {
         title: "Cove Hillcrest", // Judul Pin
         story: "Pertama kali jemput kamu di sini... Awal dari semua cerita kita. ❤️", // Cerita Anda
-        image: "Picture/COVE.JPG", // Path gambar Anda
+        image: "Picture/COVE.jpg", // Path gambar Anda
         lat: -6.225914,
         lng: 106.602011
     },
     {
         title: "Supermall Karawaci",
         story: "Kencan pertama kita dimulai di sini! Masih inget nggak kita makan apa?",
-        image: "Picture/SPM.JPG", // Path gambar Anda
+        image: "Picture/SPM.jpg", // Path gambar Anda
         lat: -6.2260,
         lng: 106.6062
     },
@@ -38,7 +38,7 @@ const locations = [
     {
         title: "U Residence 3",
         story: "Sebelum pulang kita ke ures 3 dulu, ngasih makan si BOBBY waktu itu sayang. ",
-        image: "Picture/Ures3.JPG", // Path gambar Anda
+        image: "Picture/Ures3.jpg", // Path gambar Anda
         lat: -6.228048,
         lng: 106.608323
     }
