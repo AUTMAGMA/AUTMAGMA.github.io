@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sebuah Kejutan... (Login)</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="page-login">
+
+    <div id="slideshow-background">
+        <div class="slide" style="background-image: url('Picture/Canvas.JPG');"></div>
+        <div class="slide" style="background-image: url('Picture/Canvas1.JPG');"></div>
+        <div class="slide" style="background-image: url('Picture/Canvas2.JPG');"></div>
+    </div>
+    <canvas id="particle-canvas"></canvas>
+
+    <div id="login-container">
+        <div class="login-box">
+            <h1>Biar aman i kasih Password Dulu ahh......</h1>
+            <p>Backgroundnya bagus kan sayang?? hehehe</p>
+            <form id="login-form">
+                <input type="password" id="password-input" placeholder="U tau harusnya" required>
+                <button type="submit">Yakin yaa sayang</button>
+            </form>
+            <p id="error-message" class="hidden">Passwordnya salah sayang ❤️</p>
+        </div>
+    </div>
+    
+    <script src="script-login.js"></script>
+</body>
+</html>
