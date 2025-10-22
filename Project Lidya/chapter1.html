@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 1: Sebuah Cerita</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="page-chapter page-prolog">
+    
+    <script>
+        if (sessionStorage.getItem('isLoggedIn') !== 'true') {
+            // Jika tidak ada "tiket" login, tendang kembali ke index.html
+            window.location.href = 'index.html';
+        }
+    </script>
+    
+    <div id="slideshow-background">
+        <div class="slide" style="background-image: url('Picture/Chapter1.JPG'); "></div>
+        <div class="slide" style="background-image: url('Picture/Chapter1-2.jpg');"></div>
+        <div class="slide" style="background-image: url('Picture/Chapter1-3.JPG');"></div>
+    </div>
+    <canvas id="particle-canvas"></canvas>
+
+    <div id="main-content">
+        <div id="intro-sequence">
+            <p class="intro-text">Chapter 1</p>
+            <p class="intro-text">mungkin kemarin i pernah buatin website buat u sayang</p>
+            <p class="intro-text">tapi website yang simple, di waktu Valentines day</p>
+            <p class="intro-text">dan di waktu liburan kemarin juga, i pernah ngirimin u bunga dengan puzzle lagu Kenan Tee</p>
+            <p class="intro-text">Tapi gimana kalau semua itu i Gabungin jadi 1 ??</p>
+            <p class="intro-text">WELLL SAYANG Enjoy the Chapter</p>
+            <p class="intro-text final-text">I made this Very Special For you 🫶🏻</p>
+        </div>
+    </div>
+
+    <script src="script-chapter1.js"></script>
+</body>
+</html>
