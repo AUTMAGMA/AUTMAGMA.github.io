@@ -31,7 +31,7 @@ const locations = [
     {
         title: "Living World Alam Sutra",
         story: "Abis itu kita ke LW Nonton, inget ga filmnya apa sayang??",
-        image: "Picture/LW.JPG", // Path gambar Anda
+        image: "Picture/LW.jpg", // Path gambar Anda
         lat: -6.243883, // Koordinat baru
         lng: 106.652616  // Koordinat baru
     },
