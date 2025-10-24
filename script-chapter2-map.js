@@ -57,14 +57,14 @@ document.addEventListener('DOMContentLoaded', function() {
             mapMusic.play().catch(error => {
                 console.warn("Autoplay musik latar peta diblokir:", error);
                 // Opsi Fallback: Tampilkan tombol kecil untuk play manual
-                // const playButton = document.createElement('button');
-                // playButton.innerText = '🎵'; // Tombol ikon musik
-                // playButton.id = 'play-map-music-button'; // Beri ID untuk styling
-                // playButton.onclick = () => {
-                //     mapMusic.play();
-                //     playButton.style.display = 'none'; // Sembunyikan setelah diklik
-                // };
-                // document.body.appendChild(playButton); // Tambahkan ke body
+                const playButton = document.createElement('button');
+                 playButton.innerText = '🎵'; // Tombol ikon musik
+                 playButton.id = 'play-map-music-button'; // Beri ID untuk styling
+                 playButton.onclick = () => {
+                     mapMusic.play();
+                     playButton.style.display = 'none'; // Sembunyikan setelah diklik
+                 };
+                 document.body.appendChild(playButton); // Tambahkan ke body
             });
         }, 1500); // Tunggu 1.5 detik (sesuai durasi animasi fadeInPage di CSS)
     }
